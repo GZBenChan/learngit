@@ -15,3 +15,14 @@ git checkout -b <name>
 git merge <name>
 
 git branch -d <name>
+
+git log --graph --pretty=oneline --abbrev=commit
+
+git merge <branch name>
+git merge --no-ff -m "merge with no-ff" <branch name>
+
+git stash
+git stash list
+git stash apply git stash drop
+git stash pop
+git stash apply stash@{0}
