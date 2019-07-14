@@ -26,7 +26,9 @@ git stash list
 git stash apply git stash drop
 git stash pop
 git stash apply stash@{0}
-
+====
+test
+======
 git branch -d feature-vulcan
 error: The branch 'feature-vulcan' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D feature-vulcan'.
